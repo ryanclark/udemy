@@ -76,8 +76,6 @@ function getLinkText(type: CharacterUrlType) {
 export function CharacterInfo(props: CharacterProps) {
   const { comics, name, series, stories, thumbnail, urls } = props.character;
 
-  console.log('character', props.character);
-
   const backgroundImage = `${thumbnail.path}.${thumbnail.extension}`;
   const description = `${comics.available} comics, ${series.available} series, ${stories.available} stories`;
 
