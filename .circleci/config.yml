@@ -8,6 +8,7 @@ jobs:
 
     environment:
       NODE_ENV: test
+      JEST_JUNIT_OUTPUT: ./results/junit.xml
 
     steps:
     - checkout
@@ -26,5 +27,5 @@ jobs:
     - run: yarn build
     - run: yarn test --ci --no-cache
 
-    - store_artifacts:
-        path: ~/udemy/junit.xml
+    - store_test_results:
+        path: ~/udemy/results
