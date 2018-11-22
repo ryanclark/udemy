@@ -61,7 +61,7 @@ export class CharacterSearch extends React.Component<{}, CharacterSearchState> {
   }
 
   render() {
-    const { characters, loading, offset, total } = this.state;
+    const { characters, filter, loading, offset, total } = this.state;
 
     let content = <Loading />;
     if (!loading) {
@@ -81,6 +81,7 @@ export class CharacterSearch extends React.Component<{}, CharacterSearchState> {
     return (
       <React.Fragment>
         <SearchBar
+          value={filter}
           onChange={(filter) => this.changeFilter(filter)}
         />
 

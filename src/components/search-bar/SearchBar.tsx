@@ -3,6 +3,7 @@ import styled from 'react-emotion';
 
 interface SearchBarProps {
   onChange: (value: string) => void;
+  value: string;
 }
 
 const Input = styled('input')`
@@ -30,8 +31,11 @@ export class SearchBar extends React.Component<SearchBarProps> {
   }
 
   render() {
+    const { value } = this.props;
+
     return (
       <Input
+        value={value}
         innerRef={(ref) => this.ref = ref}
         placeholder="Search characters..."
         onChange={(event) => this.handleChange(event)}

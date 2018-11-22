@@ -3,16 +3,19 @@
 exports[`Search Bar should render correctly 1`] = `
 <SearchBar
   onChange={[Function]}
+  value=""
 >
   <Styled(input)
     innerRef={[Function]}
     onChange={[Function]}
     placeholder="Search characters..."
+    value=""
   >
     <input
       className="css-1bkzmhc"
       onChange={[Function]}
       placeholder="Search characters..."
+      value=""
     />
   </Styled(input)>
 </SearchBar>
