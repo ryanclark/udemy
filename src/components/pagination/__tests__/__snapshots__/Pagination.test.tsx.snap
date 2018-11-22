@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render correctly 1`] = `
+<Pagination
+  offset={20}
+  onChange={[Function]}
+  total={41}
+>
+  <Styled(div)>
+    <div
+      className="css-jm9tqh"
+    >
+      <Styled(div)
+        key="previous"
+        onClick={[Function]}
+      >
+        <div
+          className="css-t42fz6"
+          onClick={[Function]}
+        >
+          Previous
+        </div>
+      </Styled(div)>
+      <Styled(div)
+        key="next"
+        onClick={[Function]}
+      >
+        <div
+          className="css-t42fz6"
+          onClick={[Function]}
+        >
+          Next
+        </div>
+      </Styled(div)>
+    </div>
+  </Styled(div)>
+</Pagination>
+`;

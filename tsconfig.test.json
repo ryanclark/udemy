@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "inlineSourceMap": true,
+    "module": "commonjs",
+    "sourceMap": false
+  }
+}

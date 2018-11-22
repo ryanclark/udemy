@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Bar should render correctly 1`] = `
+<SearchBar
+  onChange={[Function]}
+>
+  <Styled(input)
+    innerRef={[Function]}
+    onChange={[Function]}
+    placeholder="Search characters..."
+  >
+    <input
+      className="css-1bkzmhc"
+      onChange={[Function]}
+      placeholder="Search characters..."
+    />
+  </Styled(input)>
+</SearchBar>
+`;

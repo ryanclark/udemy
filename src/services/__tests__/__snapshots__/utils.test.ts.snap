@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Service Utils should create an API url correctly 1`] = `"https://gateway.marvel.com/v1/public/test?apikey=69b7e7afbbf5c89ce57b182461a97881&param=testvalue"`;

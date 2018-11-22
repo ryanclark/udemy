@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters Service should call the characters endpoint correctly 1`] = `
+Object {
+  "code": 200,
+  "copyright": "",
+  "data": Object {
+    "limit": 0,
+    "offset": 0,
+    "results": Array [
+      Object {
+        "id": 1,
+      },
+      Object {
+        "id": 2,
+      },
+    ],
+  },
+  "status": "Ok",
+}
+`;
